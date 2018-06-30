@@ -11,7 +11,7 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/evanisnor/gomessaging/server/pkg/api"
+	"github.com/YangfeiLi/messaging/server/pkg/api"
 )
 
 const (

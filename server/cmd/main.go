@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/evanisnor/gomessaging/server/internal"
-	"github.com/evanisnor/gomessaging/server/pkg/api"
+	"github.com/YangfeiLi/messaging/server/internal"
+	"github.com/YangfeiLi/messaging/server/pkg/api"
 )
 
 func main() {

@@ -10,7 +10,7 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"golang.org/x/net/context"
 
-	"github.com/evanisnor/gomessaging/server/pkg/api"
+	"github.com/YangfeiLi/messaging/server/pkg/api"
 )
 
 const (
