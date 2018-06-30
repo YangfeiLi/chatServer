@@ -12,7 +12,7 @@ build: | proto
 	$(GOBUILD) -o $(GOBIN)/$(SERVER_BINARY) $(SERVER_DIR)/cmd/main.go
 	$(GOBUILD) -o $(GOBIN)/$(CLIENT_BINARY) $(CLIENT_DIR)/cmd/main.go
 proto:
-	pushd $(SERVER_DIR) && protoc --go_out=plugins=grpc:pkg api/*.proto
+	pushd $(SERVER_DIR) && protoc --go_out=plugins=grpc:. pkg/api/*.proto
 clean:
 	go clean
 	rm -f $(GOBIN)/$(SERVER_BINARY)
