@@ -1,4 +1,4 @@
-# Chat Server
+# Chat Server (In progress)
 
 A Chat Room Web Application (Go + gRPC + Angular6)
 
@@ -6,7 +6,7 @@ A Chat Room Web Application (Go + gRPC + Angular6)
 Ensure you have setup the environment for [Go](https://golang.org/doc/install), [gRPC](https://grpc.io/docs/quickstart/go.html)
 ```
 $ echo $GOPATH
-(HOME DIR)/go
+(HOME DIR)/bin
 ```
 
 ## Build
